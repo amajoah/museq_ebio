@@ -1,1 +1,12 @@
-
+# 타깃 유전자/모티프 예시 (데모용 임의 염기열)
+# real-world: 독소합성유전자(mcy/sxt/pks, etc.)의 보존 모티프/프라이머 근처를 넣으세요.
+targets:
+  - name: Microcystis_mcyA
+    motifs: ["ATGACCTGATGTTGCTGA", "GCTTGGTTACGATGGTAA"]
+    max_mismatch: 1
+  - name: Pseudo_nitzschia_pksA
+    motifs: ["TTGCGTACGATGGTGCAA", "CGATGGTAACTGGTTGCA"]
+    max_mismatch: 1
+  - name: Vibrio_parahaemolyticus_toxR
+    motifs: ["ATGTTGCTGATGGTTGAC", "TGGTTGCAATGACCTGAT"]
+    max_mismatch: 2
